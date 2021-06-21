@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+apply from: '../config.gradle'
+
+
+
+dependencies {
+
+    implementation project(path: ':core_network')
+    implementation project(path: ':core_db')
+
+
+}

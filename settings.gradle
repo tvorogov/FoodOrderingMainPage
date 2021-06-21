@@ -1,0 +1,6 @@
+rootProject.name = "FoodOrderingMainPage"
+include ':app'
+include ':core_data'
+include ':core_db'
+include ':core_network'
+include ':feature_main'
